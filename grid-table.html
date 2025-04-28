@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid-container {
+        background-color: blanchedalmond;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        text-align: center;
+        grid-row-gap: 10px;
+        grid-column-gap: 15px;
+      }
+      .grid-container > div {
+        border: 2px solid chocolate;
+      }
+      .box1 {
+        grid-column: span 4;
+      }
+      .box2 {
+        grid-row: span 3;
+      
+      }
+    .box5{
+      grid-row: span 3;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="box1">header</div>
+      <div class="box2">sidebar</div>
+      <div class="box3">main</div>
+      <div class="box4">aside</div>
+      <div class="box5">footer left</div>
+      <div class="box6">6</div>
+      <div class="box7">7</div>
+      <div class="box8">8</div>
+      <div class="box9">9</div>
+      <div class="box10">10</div>
+    </div>
+  </body>
+</html>
