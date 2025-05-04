@@ -7,87 +7,84 @@
     <style>
       .container {
         width: 100%;
-        background-color: cadetblue;
-        height: 90px;
+        background-color: burlywood;
+        height: 80px;
       }
-
       .logo {
-        width: 15%;
+        width: 20%;
         float: left;
         margin-top: 15px;
+        margin-left: 10px;
       }
       .menu {
         width: 50%;
         float: left;
         list-style: none;
-        margin-top: 30px;
+        padding: 15px;
+        margin-top: 15px;
+        text-align: center;
       }
       .menu a {
         text-decoration: none;
-        /* color: rgb(255, 230, 0); */
-        margin-top: 25px;
         padding: 10px;
-        text-align: center;
         display: inline;
       }
       .menu a:hover {
-        background-color: blue;
-        color: azure;
-        padding: 10px;
+        background-color: beige;
+        color: brown;
+        padding: 15px;
       }
-      .sub-main {
+      .sub {
         display: inline;
         position: relative;
       }
       .submenu {
         position: absolute;
-        top: 15px;
-        right: 0;
         display: none;
+        top: 20px;
+        right: 0;
         text-align: center;
-        background-color: rgb(172, 241, 238);
-        width: 150px;
-        height: 180px;
+        background-color: aquamarine;
+        color: brown;
+        width: 140px;
+        height: 160px;
       }
       .submenu a {
         display: block;
       }
       .submenu a:hover {
-        background-color: blue;
-        color: azure;
+        background-color: cadetblue;
+        color: beige;
       }
-      .sub-main:hover .submenu {
+      .sub:hover .submenu {
         display: block;
       }
-
       .search {
         width: 25%;
         float: left;
-        text-align: center;
-        margin-top: 15px;
+        margin-top: 20px;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="logo">
-        <img src="Images/logo.png" />
+        <img src="Images/icongg.png" />
       </div>
       <div class="menu">
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Help</a>
-        <div class="sub-main">
+        <div class="sub">
           <a href="#">Items</a>
           <div class="submenu">
             <a href="#">Egg</a>
             <a href="#">Fish</a>
-            <a href="#">Chicken</a>
+            <a href="#">Oil</a>
           </div>
         </div>
       </div>
       <div class="search">
-        <input type="search" value="search" />
+        <input type="search" />
         <button>Search</button>
       </div>
     </div>
