@@ -1,16 +1,109 @@
-p{
-    background-color: aqua;color: blue;text-align: center;
+.container {
+  width: 100%;
+  background-color: bisque;
+  height: 80px;
 }
-.round{
-    background-color: aquamarine;color: brown;text-align: center;
+.logo {
+  width: 10%;
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
 }
-#style{
-    background-color: blueviolet;color: azure;text-align: center;
+.menu {
+  width: 55%;
+  float: left;
+  list-style: none;
+  margin-top: 15px;
+  text-align: center;
+  padding: 20px;
 }
-h1,h2,h4{
-    background-color: chocolate;color: azure;
+.menu a {
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  padding: 15px;
+  font-size: 16pt;
 }
+.menu a:hover {
+  background-color: chartreuse;
+  color: brown;
+  padding: 17px;
+}
+.search {
+  width: 20%;
+  float: left;
+  margin-top: 15px;
+  font-size: 16pt;
+  padding: 15px;
+}
+.container-b {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(125, 146, 118, 0.459);
+  height: 550px;
+}
+.sidebar {
+  width: 25%;
+  float: left;
+  height: 550px;
+  font-size: 16pt;
+}
+.sidebar a {
+  text-decoration: none;
+  text-align: center;
+}
+.sidebar a:hover {
+  background-color: chartreuse;
+  color: brown;
+  padding: 20px;
+}
+.main {
+  width: 75%;
+  float: left;
+  height: 550px;
+}
+.bannar {
+  width: 100%;
 
-*{
-    background-color: cadetblue;text-align: left;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  height: 400px;
+}
+.bannar img {
+  width: 100%;
+}
+.text {
+  width: 100%;
+}
+.text1 {
+  width: 50%;
+  float: left;
+  background-color: bisque;
+  text-align: center;
+  height: 150px;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+.text2 {
+  width: 50%;
+  float: left;
+  background-color: rgb(196, 207, 255);
+  text-align: center;
+  height: 150px;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(231, 142, 32);
+  color: rgb(14, 231, 130);
+  height: 80px;
+  font-size: 18pt;
+}
+input {
+  width: 250px;
+  height: 30px;
+}
+button {
+  height: 35px;
 }
